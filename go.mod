@@ -6,6 +6,7 @@ require (
 	bitbucket.org/bertimus9/systemstat v0.0.0-20180207000608-0eeff89b0690
 	cloud.google.com/go v0.34.0
 	github.com/Azure/azure-sdk-for-go v14.7.0+incompatible
+	github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78 // indirect
 	github.com/Azure/go-autorest v11.1.2+incompatible
 	github.com/JeffAshton/win_pdh v0.0.0-20161109143554-76bb4ee9f0ab
 	github.com/MakeNowJust/heredoc v0.0.0-20170808103936-bb23615498cd
@@ -29,6 +30,7 @@ require (
 	github.com/containerd/typeurl v0.0.0-20190515163108-7312978f2987 // indirect
 	github.com/containernetworking/cni v0.6.0
 	github.com/coreos/etcd v3.3.13+incompatible
+	github.com/coreos/go-oidc v0.0.0-20180117170138-065b426bd416 // indirect
 	github.com/coreos/go-semver v0.3.0
 	github.com/coreos/go-systemd v0.0.0-20180511133405-39ca1b05acc7
 	github.com/coreos/pkg v0.0.0-20180108230652-97fdf19511ea
@@ -111,6 +113,7 @@ require (
 	github.com/pborman/uuid v1.2.0
 	github.com/pkg/errors v0.8.0
 	github.com/pmezard/go-difflib v1.0.0
+	github.com/pquerna/cachecontrol v0.0.0-20171018203845-0dec1b30a021 // indirect
 	github.com/prometheus/client_golang v0.9.2
 	github.com/prometheus/client_model v0.0.0-20180712105110-5c3871d89910
 	github.com/prometheus/common v0.0.0-20181126121408-4724e9255275
@@ -156,18 +159,21 @@ require (
 	gopkg.in/square/go-jose.v2 v2.2.2
 	gopkg.in/warnings.v0 v0.1.1 // indirect
 	gopkg.in/yaml.v2 v2.2.2
+	gotest.tools v2.2.0+incompatible // indirect
 	k8s.io/api v0.0.0-20190726022912-69e1bce1dad5
 	k8s.io/apiextensions-apiserver v0.0.0-20190503184539-c338b28ceaa1
 	k8s.io/apimachinery v0.0.0-20190726022757-641a75999153
-	k8s.io/apiserver v0.0.0-20190726023815-781c3cd1b3dc
+	k8s.io/apiserver v0.0.0-20190503184203-cd980047a08b
 	k8s.io/client-go v0.0.0-20190726023111-a9c895e7f2ac
+	k8s.io/code-generator v0.0.0-20190726022633-14ba7d03f06f // indirect
+	k8s.io/component-base v0.0.0-20190726023549-042c00bc1f9e // indirect
 	k8s.io/gengo v0.0.0-20190128074634-0689ccc1d7d6
 	k8s.io/heapster v1.2.0-beta.1
 	k8s.io/kube-aggregator v0.0.0-00010101000000-000000000000
 	k8s.io/kube-openapi v0.0.0-20190709113604-33be087ad058
 	k8s.io/metrics v0.0.0-00010101000000-000000000000
-	k8s.io/sample-apiserver v0.0.0-20190726024041-ae46be8ba681
 	k8s.io/utils v0.0.0-20190712204705-3dccf664f023
+	sigs.k8s.io/structured-merge-diff v0.0.0-20190719182312-e94e05bfbbe3 // indirect
 	vbom.ml/util v0.0.0-20160121211510-db5cfe13f5cc
 )
 
